@@ -1,0 +1,2123 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "DbContextEmpresa",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "DRR.Core.DBEmpresaEjemplo",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[AccesoMensaje]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AccesoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AFIPMisCombantesRecibidos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutorizacionCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutorizacionCompraCancelacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutorizacionCompraEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Balanza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjeta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaConciliacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaDebe]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaFirmante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaFirmanteAutorizado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaHaber]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaHaberLiquidacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjetaLote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BancoTarjeteLoteDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaBalanza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaCapataz]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaCapatazCuadrilla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaEntidadSucursal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaOperador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaPesaje]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaPesajeDesglose]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaPesajeLiquid]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaPesajeLiquidDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaProductoDeposito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaResumen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BasculaSecadero]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BilletesDesglose]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BuscarConfiguracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Chequera]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChequeTerceros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Cliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClienteCanal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClienteCanalProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClienteClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClienteDescuento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClienteRepresentada]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClienteVendedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Cobrador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ComisionEspecial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ComunicadoModelo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contacto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentaCorrienteAnticipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentaCorrienteAnticipoCancela]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentaCorrienteCancelacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentaCorrienteRegistro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentaCorrienteRegistroTerminal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentasAsignacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Departamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Deposito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DepositoEncargado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DepositoEncargadoDeposito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DepositoMovimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DepositoMovimientoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DiasFeriados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DiasMesLaborables]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DonacionInstitucion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Empleado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoAcceso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoDiasVacacionesPeriodo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoInasistencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoPuestoJerarquia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoTurno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpleadoVacacionesFrancos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaCertificadoAFIP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaCodigoActividad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaDatos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaImpuestoZona]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Encuesta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EncuestaOpcion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EncuestaRespuesta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EncuestaRespuestaOpcion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Entidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadAderente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadCodigoActividad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadDatoFiliatorio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalArchivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalComercio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalDomicilio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalEvento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalImagen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalImpuestoZona]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalTelefono]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntidadSucursalTipoComercio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Equipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Evento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoAnual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoColaboradores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoMantenimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoMensual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoPrioridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventoSemanal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FiscalAuditoria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FiscalInformeSemanal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoAnimaIngresolProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoAnimalPieza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoAnimalPiezaTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoAnimalTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoCorral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoEgreso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoEntidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoFaena]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoFaenaDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoFaenaDetallePieza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoIngreso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoPiezaEgresoProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoTipificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoTipificador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrigorificoTropa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Hotel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelElemento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelHabitacionAuditoria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelHabitacionAuditoriaItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelHabitacionElemento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelHabitacionElementoCategoria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelRestTurno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelSector]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotelSectorHabitacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Huella]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpresionRegistro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Impuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestoDesglose]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestoFormuarioLiquidacionDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestoFormulario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestoFormularioLiquidacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Informes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LibroDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LibroDiarioAgrupado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LibroDiarioBalance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LibroDiarioBalanceItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LibroDiarioItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Licencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LicenciaIndiceTabla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MonedaTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Noticia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NovedadRegistroTabla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionAdelanto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionAdelantoCancelacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionAltaModicacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionArchivo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionAutorizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCobro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCobroWeb]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCobroWebImagen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCobroWebItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionComision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionComisionCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionComisionImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCompraCAEA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionConsignacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionControladorFiscal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCredito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCreditoCuota]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCreditoCuotaCobrada]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionCreditoPlanesPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionDescuento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionDespacho]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionDespachoEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionDespachoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionDespachoItemDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionDetallePago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionEntrega]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionFormaPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionFormaPagoDesgloce]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionFormaPagoPermiso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImpresionUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImpuestoZona]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImputacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImputacionCentroCosto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImputacionDesgloseCuenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionImputacionImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionInterDeposito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionInventario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionInventarioProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionInventarioProductoAdicional]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProdPedidoCompraOperacionItemProdCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProdPedidoVentaOperacionItemProdVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductCtrlEnvase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoCentroCosto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoCubierta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoHotelRest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoLeyenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoOrdenServicio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoPedidoCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoPedidoCompraReposicion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoReservado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoVentaBaucher]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoVentaComisEspec]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionItemProductoVentaOrdenServicio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionLeyenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionLiquidoProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPagoAutorizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPagoAutorizacionCancelacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoCompraDespachoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoCompraRecepcionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoVentaHotelRest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoVentaHotelRestEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoVentaWeb]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionPedidoVentaWebItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcionCodigoNoHallado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcionEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcionItemDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcionItemProduccionProgramacionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRecepcionItemVentaItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRegistroUsoComprobantes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRegistroUsoTalonario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRelacionOperacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRendicion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRendicionBilletes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRendicionDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRendicionPase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionResumen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionResumenDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRetencion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionRetencionFacturas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionTalonarioEncabezado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionTalonarioNumeracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionTransporte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVale]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionValeCancelacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionValeContra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionValeContraTerminal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVentaBaucher]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVentaBaucherCancelacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVentaCAEA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVentaCierreZ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OperacionVentaExportacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioDetalleMantenimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioDetallePrioridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioEquipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioHabitacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioNroSerie]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioTecnico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServicioTransporte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrdenServioTipoEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Pagador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Pallet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Perfil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PermisoEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PermisoEmpresaNroCRTMIC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaCentroCosto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaCentroCostoCuenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaInventario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaInventarioAsiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaInventarioBienTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaInventarioConsignacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaInventarioConsignacionAsignacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaInventarioSeccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaProyeccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentasTotalizadora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentasTotalizadoraTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaTablaIndice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaTablaIndiceDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanDeCuentaTipoAjuste]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Produccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionGasto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionGastoMaquina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionGastoProceso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionGastoProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionInsumosOperacionRecepcionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionInsumosOrden]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionInsumosOrdenItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionMaquina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionMaquinaOperario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOperario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrden]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenEstadoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItemDesglose]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItemProceso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItemProgramacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItemProgramacionInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItemTipoEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionOrdenItemTipoPrioridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionProceso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionProcesoMaquina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionProgramacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionProgramacionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProduccionTecnico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Producto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoBase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoBaseImagen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCaracteristica1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCaracteristica1Tipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCaracteristica2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCaracteristica2Tipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCaracteristica3]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCaracteristica3Tipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCodigoActividad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCodigoBarra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCombo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoComboActivacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoComboItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoComboItemOpcion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoComisionEspecial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCosto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCostoDescuento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCostoDescuentoHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCostoHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCostoRecargo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCostoRecargoHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoCostoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoEnvase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoEnvaseConsignacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoFamilia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoFamiliaTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoFamiliaTipoSector]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoHotelRest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoHotelRestCategoria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoHotelRestReserva]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoImpuesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoLista]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoListadoColector]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoListaPrecio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoListaPrecioComision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoListaSucursal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoMarca]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoMarcaManufactur]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoMarcaServis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoMarcaTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerie]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieAtributo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieLote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieLoteEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieLoteFraccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNroSerieMovimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoNuevaListaPrecio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2BonoSorteo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2Configuracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2Normal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2PrecioBonifCantidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2PromoXCantidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoOferta2VoucherCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoPallet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoPalletItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoPrecioHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoPresentacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoPresentacionTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoProcesoInsumo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoProcesoPrecio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoProveedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoProveedorInventario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoProveedorInventarioItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoRelacionProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoStock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoUbicacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoUbicacionStock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductoVencimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Proveedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedorBanco]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedorClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedorMarca]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Proyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Publicidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepartoDespachos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepartoPedido]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepartoRendicion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepartoVentaDirecta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reporte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ruta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Sector]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Seguro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SeguroPoliza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Servis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServisEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServisItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServisProcesos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SincronizacionTerminal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Socios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SociosClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteAbono]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteAbonoCasoTarea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteCaso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteCasoEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteCasoTarea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteCasoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteClienteConecxion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteTareasEtapas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteTecnico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SoporteTecnicoServicios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Sucursal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Supervisor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SupervisorVendedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TableDB]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TableroControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transporte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteAduana]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteAutorizacionCarga]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteAutorizacionCargaDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteAutorizacionCargaDetalleTransporteCarga]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteAutorizacionRemito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCapacidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCarga]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaAdicionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaCierrePeriodo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaCierrePeriodoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaCierrePeriodoTipoCarga]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaCierrePeriodoVehiculos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaConceptosAdicionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaConvencionColectivo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaConvenioColectivoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaEstadoFactura]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaEstadoFlete]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaLiquidacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaMovimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaMovimientoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCargaValorComercialTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteClaseBultos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCombustibleConsumoConductor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCombustibleConsumoVehiculo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCombustibleImputacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCombustibleRuteo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteConductor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteConductorEnteCarnet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteContrareembolso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCRT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCRTEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCRTViajes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCubierta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCubiertaMovimientoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCubiertaTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteCubiertaUbicacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteMandado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteMantenimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteMantenimientoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteMIC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteMICCRT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteMovimientoDestino]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteOrigenDestino]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasCarnet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasCarnetDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasEnteCarnetTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasEntregaBoletoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasEntregaRolloBoleto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLinea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLineaPunto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLineaRecorrido]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLiquidacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLiquidacionDesglose]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLiquidacionDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasLiquidacionPlanilla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasProgramacionDia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasProgramacionDiaDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasRecorrido]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasRecorridoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransportePasRecorridoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteRemitos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteRemitosViajes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteTipoCarga]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteTipoCargaCalculoCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteTipoCargaProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteUnidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoConductor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoDatoCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoEstadoUso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoEvento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoFoto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoMantenimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoServicioTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteVehiculoTipoCarga]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteViaje]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteViajeAdicionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteViajeCelular]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransporteViajeEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransproteCargaRemitos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Turno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionConceptos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionEquipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionEquipoEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionEquipoTomaEstado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionPeriodo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnidadFacturacionPeriodoVentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsuarioAuditoria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsuarioAuditoriaTabla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsuarioAutorizacionSolicitud]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsuarioAutorizacionSolicitudTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Vendedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendedorClasificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendedorRepresentada]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VersionLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ZonaGeografica]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "ixk16z8qz0.ValleDist",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
